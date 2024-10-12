@@ -1,0 +1,18 @@
+pool:
+  name: 'MyAgentPool'
+  vmImage: 'windows-latest'
+
+jobs:
+- job: Build
+  pool:
+    name: 'MyAgentPool'
+    vmImage: 'windows-latest'
+  steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '6.0.427'
+      installationPath: $(Agent.ToolsDirectory)/dotnet
+  - script: dotnet build
+    displayName: 'Build Project'
+

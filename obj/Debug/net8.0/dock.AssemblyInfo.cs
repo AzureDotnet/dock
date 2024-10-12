@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c17fc3fca691409f469d9e6424050d05e58803d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c25204f8173fb81f13427742eb4d294bab8ceaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("dock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

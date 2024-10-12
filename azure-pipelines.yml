@@ -15,4 +15,11 @@ jobs:
       installationPath: $(Agent.ToolsDirectory)/dotnet
   - script: dotnet build
     displayName: 'Build Project'
+    
+  - powershell: |
+      Invoke-WebRequest -Uri https://github.com/PowerShell/PowerShell/releases/download/v7.3.2/PowerShell-7.3.2-win-x64.msi -OutFile $(Agent.TempDirectory)\PowerShell-7.3.2-win-x64.msi
+      Start-Process -FilePath msiexec.exe -ArgumentList '/i', "$(Agent.TempDirectory)\PowerShell-7.3.2-win-x64.msi", '/quiet', '/norestart' -Wait
+      Write-Host "PowerShell 7 installed successfully"
+  displayName: 'Install PowerShell 7'
 
+ 

@@ -1,20 +1,14 @@
 pool:
-  name: 'MyAgentPool'
-  vmImage: 'windows-latest'
-
+  name: 'MyAgentPool'    # Specifies the name of the agent pool
+  vmImage: 'windows-latest'  # Specifies the OS (in this case, Windows)
 jobs:
 - job: Build
   pool:
-    name: 'MyAgentPool'
-    vmImage: 'windows-latest'
+    name: 'MyAgentPool'    # Specifies the custom agent pool
+    vmImage: 'windows-latest'  # Runs on the latest Windows image
   steps:
-  - task: UseDotNet@2
-    inputs:
-      packageType: 'sdk'
-      version: '8.0.x'
-      installationPath: $(Agent.ToolsDirectory)/dotnet
-  - script: dotnet build
-    displayName: 'Build Project'
+  - script: echo Hello, World!
+    displayName: 'Print message'
     
  
 

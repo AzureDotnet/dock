@@ -1,0 +1,13 @@
+pool:
+  name: 'MyAgentPool'    # Specifies the name of the agent pool
+  vmImage: 'windows-latest'  # Specifies the OS (in this case, Windows)
+
+jobs:
+- job: Build
+  pool:
+    name: 'MyAgentPool'    # Specifies the custom agent pool
+    vmImage: 'windows-latest'  # Runs on the latest Windows image
+  steps:
+  - script: echo Hello, World!
+    displayName: 'Print message'
+

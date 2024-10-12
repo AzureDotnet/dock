@@ -1,0 +1,15 @@
+C:\dock\bin\Debug\net8.0\dock.exe
+C:\dock\bin\Debug\net8.0\dock.deps.json
+C:\dock\bin\Debug\net8.0\dock.runtimeconfig.json
+C:\dock\bin\Debug\net8.0\dock.dll
+C:\dock\bin\Debug\net8.0\dock.pdb
+C:\dock\obj\Debug\net8.0\dock.GeneratedMSBuildEditorConfig.editorconfig
+C:\dock\obj\Debug\net8.0\dock.AssemblyInfoInputs.cache
+C:\dock\obj\Debug\net8.0\dock.AssemblyInfo.cs
+C:\dock\obj\Debug\net8.0\dock.csproj.CoreCompileInputs.cache
+C:\dock\obj\Debug\net8.0\dock.sourcelink.json
+C:\dock\obj\Debug\net8.0\dock.dll
+C:\dock\obj\Debug\net8.0\refint\dock.dll
+C:\dock\obj\Debug\net8.0\dock.pdb
+C:\dock\obj\Debug\net8.0\dock.genruntimeconfig.cache
+C:\dock\obj\Debug\net8.0\ref\dock.dll
